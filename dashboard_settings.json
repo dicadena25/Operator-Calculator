@@ -1,0 +1,73 @@
+{
+  "target_times": {
+    "221 W01 Press": 15.0,
+    "221 W02 Welder": 15.0,
+    "221 W03 Cartoner": 16.0,
+    "OP20_InspectA": 30.0,
+    "ST1.Master Pack": 30.0,
+    "ST3.Margarita": 30.0,
+    "ST4.FullTopAssy": 30.0,
+    "ST5.BFrameAssy": 30.0,
+    "ST6.TB FOA": 30.0,
+    "ST7.PCB Assy": 30.0,
+    "ST8.Door": 30.0,
+    "Thatcher": 30.0,
+    "270 E12 Press L": 33.0,
+    "270 E12 Press R": 33.0,
+    "270 E14 Welder": 32.0,
+    "270 E15 Welder": 26.0,
+    "270 E16 Cartoner": 14.0
+  },
+  "cell_duration_filters": {
+    "221": {
+      "min": 6.0,
+      "max": 1800.0
+    },
+    "270": {
+      "min": 8.0,
+      "max": 1800.0
+    }
+  },
+  "station_duration_filters": {
+    "221 W01 Press": {
+      "min": 7.0,
+      "max": 1800.0
+    },
+    "221 W02 Welder": {
+      "min": 7.0,
+      "max": 1800.0
+    },
+    "221 W03 Cartoner": {
+      "min": 8.0,
+      "max": 1800.0
+    },
+    "270 E12 Press L": {
+      "min": 12.0,
+      "max": 1800.0
+    },
+    "270 E12 Press R": {
+      "min": 12.0,
+      "max": 1800.0
+    },
+    "270 E14 Welder": {
+      "min": 15.0,
+      "max": 1800.0
+    },
+    "270 E15 Welder": {
+      "min": 12.0,
+      "max": 1800.0
+    },
+    "270 E16 Cartoner": {
+      "min": 7.0,
+      "max": 1800.0
+    }
+  },
+  "filter_min_seconds": 3.0,
+  "filter_max_seconds": 1800.0,
+  "filter_min_records": 100,
+  "excluded_operators": [],
+  "last_stations": {
+    "221": "221 W03 Cartoner",
+    "270": "270 E16 Cartoner"
+  }
+}
